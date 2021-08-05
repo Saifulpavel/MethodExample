@@ -10,6 +10,16 @@ namespace MethodExample
     {
         static void Main(string[] args)
         {
+            int result=Add(30,20);
+            Console.WriteLine(result);
+            Console.ReadKey();
         }
+        //MethodExample//
+        static int Add(int firstNum, int secondNum)
+        {
+            int sum = firstNum + secondNum;
+            return sum;
+        }
+
     }
 }
